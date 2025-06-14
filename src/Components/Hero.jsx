@@ -3,7 +3,7 @@ import video2 from '../assets/video2.mp4';
 
 const HeroSection = () => {
   return (
-    <div className="border-b border-neutral-800 flex flex-col mt-6 lg:mt-20 items-center">
+    <div className="border-b border-neutral-700 flex flex-col mt-6 lg:mt-20 items-center">
       <h1 className="text-4xl sm:text-6xl lg:text-7xl
        text-center tracking-wide">
         VirtualR build tools <span className="bg-gradient-to-r
@@ -21,15 +21,15 @@ const HeroSection = () => {
         from-orange-500 to-orange-800'>Start for free!</a>
         <a href="#" className='border rounded-md p-2.5'>Documentation</a>
       </div>
-    <div className='flex mt-10 justify-center'>
+    <div className='flex flex-col sm:flex-row mt-10 justify-center items-center'>
       <video autoPlay loop muted className='
-      rounded-3xl w-1/2 border border-orange-700 shadow-orange-400
-      mx-2 my-10'>
+      rounded-3xl w-full sm:w-1/2 border border-orange-700 shadow-orange-400
+      mx-2 mb-15 sm:my-10'>
         <source src={video1} type='video/mp4' />
       </video>
       <video autoPlay loop muted className='
-      rounded-3xl w-1/2 border border-orange-700 shadow-orange-400
-      mx-2 my-10'>
+      rounded-3xl w-full sm:w-1/2 border border-orange-700 shadow-orange-400
+      mx-2 sm:my-10'>
         <source src={video2} type='video/mp4'/>
       </video>
     </div>
