@@ -3,7 +3,7 @@ import video2 from '../assets/video2.mp4';
 
 const HeroSection = () => {
   return (
-    <div className="border-b border-neutral-700 flex flex-col mt-6 lg:mt-20 items-center">
+    <div className="border-b border-neutral-800 flex flex-col mt-6 lg:mt-20 items-center">
       <h1 className="text-4xl sm:text-6xl lg:text-7xl
        text-center tracking-wide">
         VirtualR build tools <span className="bg-gradient-to-r
